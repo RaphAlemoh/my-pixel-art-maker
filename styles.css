@@ -1,6 +1,7 @@
 body {
     text-align: center;
-	font-family: san-serif;
+    font-family: san-serif;
+    background-color:#FFD700;
 
 }
 
@@ -9,7 +10,7 @@ h1 {
     font-family: Arial;
     font-size: 30px;
     margin: 0.2em;
-	color:grey;
+    color:grey;
 }
 
 h2 {
@@ -28,6 +29,7 @@ table,tr,td {
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    background-color: white;
 }
 
 tr {

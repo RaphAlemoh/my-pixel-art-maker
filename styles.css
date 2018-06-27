@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+	font-family: san-serif;
+
+}
+
+
+h1 {
+    font-family: Arial;
+    font-size: 30px;
+    margin: 0.2em;
+	color:grey;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+/* single line declaration to effect three attributes */
+table,tr,td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+/* change the way input for number looks */
+input[type=number] {
+    width: 6em;
+    background-color:#ecf;
+	padding: 3px 3px;
+	color:green;
+}
+/* change the way the submit button looks #customized*/
+input[type=submit] {
+    background-color: grey ; /* Green */
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    color: white;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	cursor:pointer;
+}
+
+/* change the way the submit button looks when user hover */
+input[type=submit]:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
